@@ -6,7 +6,7 @@
 //import required modules 
 const httpStatus = require('http-status-codes'),
   contentTypes = require('./contentTypes'),
-  util = require('./utils');
+  utils = require('./utils');
 
 const routes = {
   "GET": {},
