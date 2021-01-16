@@ -26,7 +26,7 @@ router.get("/contact.html", (req, res) => {
   utils.getFile("/views/contact.html", res);
 });
 
-router.get("/", (req, res) => {
+router.post("/", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
   utils.getFile("/views/thanks.html", res);
 });
