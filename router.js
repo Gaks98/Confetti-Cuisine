@@ -7,3 +7,9 @@
 const httpStatus = require('http-status-codes'),
   contentTypes = require('./contentTypes'),
   util = require('./utils');
+
+const routes = {
+  "GET": {},
+  "POST": {}
+};
+
