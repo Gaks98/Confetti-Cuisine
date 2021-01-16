@@ -5,7 +5,17 @@
 
 //First import modules to use in getFile
 const fs = require('fs'),
-  httpStatus = require('http-status-code'),
+  httpStatus = require('http-status-codes'),
   contentTypes = require('./contentTypes');
   
-
+modules.export = {
+  getFile: (file, res) => {
+    fs.readFile(`./${file}`, (error, data) => {
+      if (error) {
+        res.writeHeader(httpStatus.INTERNAL_SERVER_ERROR, contentTypes.html);
+        res.end("There was an error serving content !");
+      }
+      res.end(data);
+    });
+  }
+};
