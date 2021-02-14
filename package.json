@@ -1,7 +1,7 @@
 {
   "name": "confetti-cuisine",
   "version": "1.0.0",
-  "description": "",
+  "description": "A site for booking classes for cooking",
   "main": "main.js",
   "dependencies": {
     "ejs": "^3.1.6",
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/Gaks98/Confetti-Cuisine.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yvonne Gakii",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gaks98/Confetti-Cuisine/issues"
