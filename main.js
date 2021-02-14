@@ -1,6 +1,9 @@
 const express = require('express'),
-  homeController = require('./controllers/homeControllers')
-  app = express();
+  homeController = require('./controllers/homeControllers'),
+  layouts = require('express-ejs-layouts')
+app = express();
+  
+
 
 app.use(express.urlencoded({
   extended: false
