@@ -1,23 +1,28 @@
 {
   "name": "confetti-cuisine",
   "version": "1.0.0",
-  "description": "A site for booking classes for cooking",
+  "description": "",
   "main": "main.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "http-status-codes": "^2.1.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gaks98/Confetti-Cuisine.git"
   },
-  "author": "Yvonne Gakii",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gaks98/Confetti-Cuisine/issues"
   },
-  "homepage": "https://github.com/Gaks98/Confetti-Cuisine#readme",
-  "dependencies": {
-    "http-status-codes": "^2.1.4"
-  }
+  "homepage": "https://github.com/Gaks98/Confetti-Cuisine#readme"
 }
