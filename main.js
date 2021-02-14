@@ -1,4 +1,5 @@
 const express = require('express'),
+  homeController = require('./controllers/homeControllers')
   app = express();
 
 app.use(express.urlencoded({
