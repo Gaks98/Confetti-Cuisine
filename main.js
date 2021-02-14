@@ -3,6 +3,7 @@ const express = require('express'),
   layouts = require('express-ejs-layouts')
 app = express();
   
+app.set("view engine", "ejs");
 
 
 app.use(express.urlencoded({
